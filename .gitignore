@@ -1,7 +1,8 @@
-App
-lib
-spec
+/App/**
+/lib/**
+/spec/**
 shard.lock
 webserver
-rucksack*
+rucksack
 .rucksack
+.rucksack.toc
