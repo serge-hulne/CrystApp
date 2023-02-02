@@ -1,0 +1,7 @@
+/App
+/lib
+/spec
+shard.lock
+webserver
+rucksack*
+.rucksack
