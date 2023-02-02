@@ -1,0 +1,9 @@
+---
+version: 1.0
+shards:
+  rucksack:
+    git: https://github.com/busyloop/rucksack.git
+    version: 2.0.0
+  webview:
+    git: https://github.com/naqvis/webview.git
+    version: 0.2.1

@@ -3,6 +3,7 @@ require "rucksack"
 require "webview"
 
 RUCKSACK_MODE = {{ env("RUCKSACK_MODE").to_i }}
+DEBUG = {{ env("DEBUG") }}
 IP            = "127.0.0.1"
 PORT          = 8080
 WIDTH         =  800
@@ -14,7 +15,8 @@ TITLE         = "My app"
 # ---------------------
 
 # Archiving mode
-p "RUCKSACK_MODE =  #{RUCKSACK_MODE}"
+p "RUCKSACK_MODE=#{RUCKSACK_MODE}"
+p "DEBUG=#{DEBUG}"
 
 spawn do
   # local server set and run:
@@ -48,10 +50,20 @@ url = "http://#{IP}:#{PORT}"
 
 pp "URL = #{url}"
 
+if DEBUG == true
 wv = Webview.window(WIDTH,
   HEIGHT,
   Webview::SizeHints::NONE,
   TITLE,
+  url,
+  true)
+else 
+  wv = Webview.window(WIDTH,
+  HEIGHT,
+  Webview::SizeHints::NONE,
+  TITLE,
   url)
+end
+  
 wv.run
 wv.destroy
