@@ -10,6 +10,11 @@ WIDTH         =  800
 HEIGHT        =  600
 TITLE         = "My app"
 
+debug = false
+if DEBUG == "true"
+  debug = true
+end
+
 # ----------------------
 # Server
 # ---------------------
@@ -50,20 +55,13 @@ url = "http://#{IP}:#{PORT}"
 
 pp "URL = #{url}"
 
-if DEBUG == true
-  wv = Webview.window(WIDTH,
-    HEIGHT,
-    Webview::SizeHints::NONE,
-    TITLE,
-    url,
-    true)
-else
-  wv = Webview.window(WIDTH,
-    HEIGHT,
-    Webview::SizeHints::NONE,
-    TITLE,
-    url)
-end
+wv = Webview.window(WIDTH,
+  HEIGHT,
+  Webview::SizeHints::NONE,
+  TITLE,
+  url,
+  debug)
+
 
 wv.run
 wv.destroy
