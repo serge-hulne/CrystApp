@@ -9,6 +9,7 @@ PORT          = 8080
 WIDTH         =  800
 HEIGHT        =  600
 TITLE         = "My app"
+WEBROOT       = "svelte/dist"
 
 debug = false
 if DEBUG == "true"
@@ -28,10 +29,11 @@ spawn do
   server = HTTP::Server.new do |context|
     path = context.request.path
     path = "/index.html" if path == "/"
-    path = "./webroot#{path}"
+    path = "./#{WEBROOT}#{path}"
 
     begin
       rucksack(path).read(context.response.output)
+      puts "path = #{path}"
     rescue Rucksack::FileNotFound
       context.response.status = HTTP::Status.new(404)
       context.response.print "404 not found :("
@@ -42,7 +44,7 @@ spawn do
   server.listen
 
   # Set the local dir:
-  {% for name in `find ./webroot -type f`.split('\n') %}
+  {% for name in `find ./#{WEBROOT} -type f`.split('\n') %}
     rucksack({{name}})
   {% end %}
 end
@@ -51,7 +53,11 @@ end
 # Browser
 # ----------------------
 
-url = "http://#{IP}:#{PORT}"
+# Svelte PROD mode:
+# url = "http://#{IP}:#{PORT}"
+
+# Svelte DEV mode:
+url = "http://localhost:5173/"
 
 pp "URL = #{url}"
 
@@ -61,7 +67,6 @@ wv = Webview.window(WIDTH,
   TITLE,
   url,
   debug)
-
 
 wv.run
 wv.destroy

@@ -1,4 +1,4 @@
-name: rucksack
+name: app
 version: 0.1.0
 
 authors:
@@ -6,7 +6,7 @@ authors:
 
 targets:
   rucksack:
-    main: src/rucksack.cr
+    main: src/main.cr
 
 crystal: 1.6.0
 
