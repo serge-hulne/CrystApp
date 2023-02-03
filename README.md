@@ -29,4 +29,10 @@ Desktop apps Development framework for Crystal-lang
 - Svelte (with Vite): https://svelte.dev
 - Webview : https://github.com/naqvis/webview
 - Rucsack : https://github.com/busyloop/rucksack
+
+# Mac OS and Linux
+-  Should work as is.
+
+# Windows
+- The system will have to be modified slighly to accomodate for the current lack of multi-thrteading of Crystal under Winwows.
   
