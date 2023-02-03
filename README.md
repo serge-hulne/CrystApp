@@ -34,5 +34,5 @@ Desktop apps Development framework for Crystal-lang
 -  Should work as is.
 
 # Windows
-- The system will have to be modified slighly to accomodate for the current lack of multi-thrteading of Crystal under Winwows.
+- The system will have to be modified slighly to accomodate for the current lack of multi-threading in Crystal under Winwows.
   
