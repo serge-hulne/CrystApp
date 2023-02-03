@@ -20,3 +20,11 @@ Desktop apps Development framework for Crystal-lang
 - Make determination of port automatic.
 - Disable "Reload" in "release" mode
 - Create example apps on separate Git repo's.
+
+
+# USES
+- Crystal: https://crystal-lang.org
+- Svelte (with Vite): https://svelte.dev
+- Webview : https://github.com/naqvis/webview
+- Rucsack : https://github.com/busyloop/rucksack
+  
