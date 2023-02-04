@@ -48,7 +48,7 @@ Desktop apps Development framework for Crystal-lang
 - `make init`
 - `make init_svelte`
 - `make svelte_build`
-- `make app`
+- `make app_test`
 
 # To run the app again without re-building it
 - `open .` (and click on the app's icon)
