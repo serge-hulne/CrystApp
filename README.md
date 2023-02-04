@@ -15,6 +15,10 @@ Desktop apps Development framework for Crystal-lang
 
 (The alpha version uses a Makefile as CLI for the moment)
 
+# Prerequisites:
+- npm (for Svelte)
+- Crystal
+
 # TODO
 - Add support for Svelte (it also provides a dev server for client side).
 - in dev phase, switch to Svelte dev server port (bypass Crystal server).
@@ -37,4 +41,19 @@ Desktop apps Development framework for Crystal-lang
 
 # Windows
 - The system will have to be modified slighly to accomodate for the current lack of multi-threading in Crystal under Winwows.
+
+# DEMO (alpha version)
+- `git clone https://github.com/serge-hulne/CrystApp`
+- `cd CrystApp`
+- `make init`
+- `make init_svelte`
+- `make svelte_build`
+- `make app`
+
+# To run the app again without re-building it
+- `open .` (and click on the app's icon)
+or
+- `open App.app`
+or 
+- `make run`
   
