@@ -10,7 +10,7 @@ PORT          = 8080
 WIDTH         =  800
 HEIGHT        =  600
 TITLE         = "My app"
-WEBROOT       = "local"
+WEBROOT       = "svelte/dist"
 
 debug = false
 if DEBUG == "true"
@@ -30,7 +30,7 @@ spawn do
   server = HTTP::Server.new do |context|
     path = context.request.path
     path = "/index.html" if path == "/"
-    path = "./local#{path}"
+    path = "./#{WEBROOT}#{path}"
 
     begin
       # Here we read the requested file from the Rucksack
@@ -51,7 +51,7 @@ spawn do
 
   # Here we statically reference the files to be included
   # once - otherwise Rucksack wouldn't know what to pack.
-  {% for name in `find ./local -type f`.split('\n') %}
+  {% for name in `find ./#{WEBROOT} -type f`.split('\n') %}
     rucksack({{name}})
   {% end %}
 end
