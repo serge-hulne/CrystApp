@@ -23,6 +23,8 @@ Desktop apps Development framework for Crystal-lang
 - Disable "Reload" in "release" mode
 - Create example apps on separate Git repo's.
 
+# THANKS
+- A big thank to the Rucksack development team (https://github.com/m-o-e), https://github.com/busyloop/rucksack
 
 # USES
 - Crystal: https://crystal-lang.org
