@@ -35,6 +35,7 @@ Desktop apps Development framework for Crystal-lang
 - Svelte (with Vite): https://svelte.dev
 - Webview : https://github.com/naqvis/webview
 - Rucsack : https://github.com/busyloop/rucksack
+- npm (in order to install Svelte).
 
 # Mac OS and Linux
 -  Should work as is.
