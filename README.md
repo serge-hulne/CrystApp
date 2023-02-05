@@ -8,6 +8,7 @@ Desktop apps Development framework for Crystal-lang
 - Self-contained.
 - Single file, statically compiled.
 - Easy to distribute.
+- ### 100 times smaller than an Eletron app
 
 # In short:
 - "Wails for Crystal".
