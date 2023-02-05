@@ -4,5 +4,6 @@
 - [ ] Make determination of port automatic.
 - [ ] Disable "Reload" in "release" mode
 - [ ] Create example apps on separate Git repo's.
-- [ ] Add a command-line to access the makefile in a more structured manner.
+- [ ] Add a command-line to replace the makefile (ergonomy, portability).
 - [ ] Add support for Vue 3.
+- [ ] Add support for Windows 10/11.
