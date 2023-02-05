@@ -27,6 +27,8 @@ Desktop apps Development framework for Crystal-lang
 
 # THANKS
 - A big thank to the Rucksack development team (https://github.com/m-o-e), https://github.com/busyloop/rucksack
+- A big thanks to the Crystal developers team : straight-shoota
+- A big thanks to npn (on https://forum.crystal-lang.org) 
 
 # USES
 - Crystal: https://crystal-lang.org
