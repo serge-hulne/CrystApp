@@ -5,7 +5,7 @@ Desktop apps Development framework for Crystal-lang
 
 <img width="807" alt="Screenshot 2023-02-03 at 16 57 52" src="https://user-images.githubusercontent.com/303502/216673349-1131c4d5-75d8-4a58-948e-5069a7f0fa38.png">
 
-# Webview apps written in Crystal
+# CrystApp : WebView apps written in Crystal
 - Self-contained.
 - Single file, statically compiled.
 - Easy to distribute.
