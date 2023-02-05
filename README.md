@@ -20,12 +20,7 @@ Desktop apps Development framework for Crystal-lang
 - Crystal
 
 # TODO
-- Add support for Svelte (it also provides a dev server for client side).
-- in dev phase, switch to Svelte dev server port (bypass Crystal server).
-- Check interoperability Crystal <-> JavaScript/TypeScript. Provide examples.
-- Make determination of port automatic.
-- Disable "Reload" in "release" mode
-- Create example apps on separate Git repo's.
+https://github.com/serge-hulne/CrystApp/blob/main/TODO.md
 
 # THANKS
 - A big thank to the Rucksack development team (https://github.com/m-o-e), https://github.com/busyloop/rucksack
