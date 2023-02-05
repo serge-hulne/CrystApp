@@ -20,7 +20,7 @@ Desktop apps Development framework for Crystal-lang
 - Crystal
 
 # TODO
-./TODO.md
+[TODO.md](https://github.com/serge-hulne/CrystApp/blob/main/TODO.md)
 
 # THANKS
 - A big thank to the Rucksack development team (https://github.com/m-o-e), https://github.com/busyloop/rucksack
