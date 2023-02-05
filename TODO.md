@@ -1,8 +1,8 @@
 - [x] Add support for Svelte (it also provides a dev server for client side, via Vite).
 - [x] in dev phase, switch to Svelte dev server (Vite) port (bypass Crystal server intended for deployment only).
 - [x] Check interoperability Crystal <-> JavaScript/TypeScript. Provide examples.
-- [] Make determination of port automatic.
-- [] Disable "Reload" in "release" mode
-- [] Create example apps on separate Git repo's.
-- [] Add a command-line to access the makefile in a more structured manner.
-- [] Add support for Vue 3.
+- [ ] Make determination of port automatic.
+- [ ] Disable "Reload" in "release" mode
+- [ ] Create example apps on separate Git repo's.
+- [ ] Add a command-line to access the makefile in a more structured manner.
+- [ ] Add support for Vue 3.
