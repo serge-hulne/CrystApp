@@ -10,7 +10,7 @@ Desktop apps Development framework for Crystal-lang
 - Single file, statically compiled.
 - Easy to distribute.
 - ***100 times smaller than an Electron app***
-- Faster and more energy cosuming than an electron app.
+- Faster and more energy efficient than an electron app.
 - Safer than Electron.js : Statically compiled and statically typed : most bugs are caught at compile time (not at run-time)
 
 # In short:
