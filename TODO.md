@@ -7,3 +7,7 @@
 - [ ] Add a command-line to replace the makefile (ergonomy, portability).
 - [ ] Add support for Vue 3.
 - [ ] Add support for Windows 10/11.
+- [ ] save the options passed to the CLI in a JSON or Yaml file to save :
+- Framework chosen (Svelte, Vue, etc.)
+- Phase (init, dev, packing/release)
+- etc.
