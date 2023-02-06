@@ -11,3 +11,4 @@
 - Framework chosen (Svelte, Vue, etc.)
 - Phase (init, dev, packing/release)
 - etc.
+- [ ] Saving source files .cr and .svelte as a series of zip files in an "archive" directory. 
