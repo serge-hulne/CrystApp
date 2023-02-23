@@ -12,6 +12,11 @@ Desktop apps Development framework for Crystal-lang
 - Faster and more energy efficient than an electron app.
 - Safer than Electron.js : Statically compiled and statically typed : most bugs are caught at compile time (not at run-time)
 
+# Status :
+[x] MacOS, Linux : working at developing a CLI tool to replace the makefile.
+[x] Windows 10, 11 : WebView : The Webview part (client part now works under Windows 11)
+[ ] Windows 10, 11 : Currenttly busy with trying to make the archiving part compatible with Windows.
+
 # In short:
 - "Wails for Crystal".
 - "Electron for Crystal.
